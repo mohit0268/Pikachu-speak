@@ -8,20 +8,21 @@ body{
     overflow-x:hidden ;
 }
 
-.section{
+.top{
 
     width:100vw;
     height:50px;
     padding:3rem;
     background-color: #FFD523;
     color:#F98404;
-  
+    margin-bottom: 3rem;
     
 }
 
 
 textarea{
-    padding:1.5rem
+    padding:1.5rem;
+    font-size: 1rem;
 }
 #btn-translate{
     font-size: 1rem;
@@ -29,6 +30,7 @@ textarea{
     background-color: #F98404;
     color:#fff;
     box-shadow: gray 5px 4px;
+    margin:2rem;
 }
 
 #output{
@@ -40,5 +42,7 @@ textarea{
     width:70%;
     margin:4rem;
     padding:1rem;
+    text-align: left;
+    font-size: 1.5rem;
 
 }
