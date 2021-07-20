@@ -2,3 +2,43 @@
     margin:0;
     padding:0;
 }
+body{
+    text-align: center;
+    font-size: 2rem;
+    overflow-x:hidden ;
+}
+
+.section{
+
+    width:100vw;
+    height:50px;
+    padding:3rem;
+    background-color: #FFD523;
+    color:#F98404;
+  
+    
+}
+
+
+textarea{
+    padding:1.5rem
+}
+#btn-translate{
+    font-size: 1rem;
+    padding:0.5rem;
+    background-color: #F98404;
+    color:#fff;
+    box-shadow: gray 5px 4px;
+}
+
+#output{
+    
+    border:1px solid black;
+    position: absolute;
+    left:150px;
+    height:10vh;
+    width:70%;
+    margin:4rem;
+    padding:1rem;
+
+}
